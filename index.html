@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leila Chan Currie</title>
+	
+    <link href='http://fonts.googleapis.com/css?family=Dawning+of+a+New+Day'
+          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300'
+          rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	
+</head>
+
+<body>
+  <!--Background image by Folkert Gorter superfamous.com-->
+  <!--Used under Creative Commons license 3.0-->
+  <div id='content'>
+    <div id='blurb'>
+      <p id='links'>
+          <a href="resume.pdf" title='PDF'>resum&eacute;</a> |
+          <a href="http://www.linkedin.com/pub/leila-chan-currie/4b/927/759">linkedIn</a>
+      </p>
+      <div id='name'>Leila Chan Currie</div>
+      <p>
+        I make things that people find useful
+      </p>
+      <p>
+        I believe in the intersection of function and beauty
+      </p>
+      <p>
+        and aspire to add both to the world
+      </p>
+      <p id='links-bottom'>
+          <a href="resume.pdf" title='PDF'>resum&eacute;</a> |
+          <a href="http://www.linkedin.com/pub/leila-chan-currie/4b/927/759">linkedIn</a>
+      </p>
+    </div>
+  </div>
+
+  <p id="attribution">
+    image by Folkert Gorter, cc3.0
+  </p>
+
+  <img src="img5mirror1366.jpg" id="dummy" style="display:none;" />
+
+  <script
+  src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript">
+      <!-- fade in backgorund -->
+      
+      $('#dummy').ready(function() {
+        if ($(window).width() > 1366) {
+          $('div#content').css('background-image',
+            'url(img5mirror-cropped.jpg)');
+        } else {
+          $('div#content').css('background-image',
+            'url(img5mirror1600.jpg)');
+        }
+        $('div#content').animate({opacity: 1}, 1000);
+      });
+
+	    <!-- 	Google code -->
+	    var _gaq = _gaq || [];
+	    _gaq.push(['_setAccount', 'UA-28361374-1']);
+	    _gaq.push(['_trackPageview']);
+	
+        (function() {
+            var ga = document.createElement('script'); 
+            ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0]; 
+            s.parentNode.insertBefore(ga, s);
+	     })();
+	</script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+body{
+	margin: auto;
+	padding-top: 30px;
+	color: #333;
+  background-image: url(background.png);
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	text-align: left;
+}
+
+#header {
+    background: #fefefe;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    font-size: 28px;
+    padding: 3px 11px;
+    font-weight: bold;
+    font-family: "Cookie",  Arial, sans-serif;
+    border-radius: 5px;
+}
+
+@-moz-document url-prefix() {
+    #header { 
+        font-weight: normal; 
+        font-size: 30px;
+    }
+}
+
+#card {
+    width: 700px;
+    margin: auto;
+    background: #fefefe;
+    background-image: url(background.png);
+    box-shadow: 0 2px 22px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    padding: 0px 0px;
+    margin-top: 25px;
+}
+
+#card_content {
+    box-shadow: 0 2px 22px rgba(0, 0, 0, .1);
+    background: #fefefe;
+    width: 550px;
+    position: relative;
+    left: 75px;
+    padding: 20px 0px;
+}
+
+#ribbon {
+	background-color: #f0fff7;
+    padding-bottom: 136px;
+    margin-top: -192px;
+    box-shadow: 0 2px 22px rgba(0, 0, 0, .1);
+}
+
+#footer {
+    text-align: right;
+    float: right;
+    font-size: 13px;
+    padding-top: 20px;
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+p{
+	width: 490px;
+	margin: auto;
+	padding: 5px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+
+a:link {color: #55463e; text-decoration: underline; }
+a:visited {color: #55463e; text-decoration: underline; }
+a:hover {color: #ff5861; text-decoration: none; }
+a:active {color: #ff2533; text-decoration: none; }
